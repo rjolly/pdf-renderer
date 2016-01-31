@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>PDFRenderer Home Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" type="text/css" href="common.css"/>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+    <style>
+    </style>
+
+
+    <h1 style="font-size: 200%"><span style="color:#ee6b00">PDF Renderer</span>: 
+    <span style="color:#3E6A8F">a 100% Java PDF renderer and viewer</span></h1>
+
+    <p>
+        <a href="demos/latest/launch.html">demo</a> |
+        <a href="#screenshots">screenshots</a> |
+        <a href="demos/latest/PDFRenderer.jar">download binary jar</a> |
+        <a href="demos/latest/PDFRenderer_src.zip">download source zip</a> |
+        <a href="nonav/demos/latest/javadoc/index.html">javadocs</a> |
+        <a href="examples.html">examples</a>
+    </p>
+  
+    
+    
+  <h3><a name="screenshots">Screenshots</a></h3>
+  
+  <div class="screenshot_container">
+  <p class="screenshot">
+  <a href="screenshots/PDF-Renderer.png"><img src="screenshots/PDF-Renderer.thumb.jpg"/></a><br/>
+  <i>The demo viewer app (click for bigger image)</i></p>
+  
+  <p class="screenshot">
+  <a href="screenshots/PDF-Renderer-in-Wonderland.png"><img src="screenshots/PDF-Renderer-in-Wonderland.thumb.jpg"/></a><br/>
+  <i>Experimental Project Wonderland support (click for bigger image)</i></p>
+  </div>
+  <div class="screenshot_container">
+  </div>
+  
+  
+  <h3>What is it?</h3>
+
+    <p>The PDF Renderer is just what the name implies: an open source, all Java library which renders PDF documents to the screen using Java2D. Typically this means drawing into a Swing panel, but it could also draw to other Graphics2D implementations. We hope you will come up with cool things to do with it that we never thought of.</p>
+    
+    <p>PDF is one of the core file formats of the Internet, so it is very important for Java programmers to be able to both read and write PDFs.   Great open source libraries like iText have long handled the writing half, but until now there has not been a good way to read PDFs using open source Java libraries.   It could be used to draw on top of PDFs, share them over a network, convert PDFs to PNG images, or maybe even project PDFs into a 3D scene.</p>
+
+    <p><i>Note, the PDFRenderer does not <b>generate</b> PDF documents, instead it <b>views</b> them. To generate PDFs you should try <a href="http://www.lowagie.com/iText/">iText</a> or one of <a href="http://java-source.net/open-source/pdf-libraries">many other
+    great Java libraries</a>.</i></p>
+    
+    
+    
+    <h3>What can I use it for?</h3>
+    
+    <p>Some ideas to get you started:
+    </p>
+    
+    <ul>
+    <li>view PDFs in your own app</li>
+    <li>print-preview before exporting PDF files</li>
+    <li>render PDFs to PNGs in a server-side web application</li>
+    <li>view PDFs in <a href="#screenshots">a 3D scene</a></li>
+    <li>draw on top of PDFs and annotate them in a networked viewer</li>
+    </ul>
+
+    <h3>What are the runtime requirements?</h3>
+    
+    <p>The PDF Renderer requires Java 5 (Java SE 1.5). It has no other dependencies</p>
+    
+<h3>Getting Started</h3>
+
+    <p>Since this is the first release we don't have much content yet. You can download the code using <a href="https://pdf-renderer.dev.java.net/source/browse/pdf-renderer/">CVS</a>,
+    read the <a href="nonav/demos/latest/javadoc/index.html">javadocs</a>, or try out the <a href="demos/latest/launch.jnlp">viewer demo</a>. Also, please join the dev or user's mailing list.</p>
+    
+    <p>Our <a href="examples.html">examples page</a> has some sample code to opening
+    PDFs in Swing, as an image, and other basic usages.</p>
+  
+    
+
+  <h3>Contributing back to the project</h3>
+  
+  <p>There are several areas that need work. The PDF Renderer currently supports a subset 1.4 of the PDF specification. It does not support transparency, various font encodings or fill-in forms. These are the first features we hope the community will tackle.</p>
+    
+  <p>Since the PDF Render is part of SwingLabs it follows the same rules. First, SwingLabs projects require the use of the SCA (Sun Contributor Agreement) for any code contributions greater than 20 lines in length. This agreement gives Sun joint copyright on the code (so we can do things like change the license and indemnify customers). In addition, by signing this agreement you certify that the code you submit to the project is code you own the copyright to and code you have the right to submit.</p>
+
+  <p>In short, you must sign the SCA and return it to us in order to get commit rights to CVS. However, you <i><b>do not</b></i> have to sign anything to download the code and use it in your own programs. The SwingLabs PDF Renderer is licensed under the <a href="http://www.gnu.org/licenses/lgpl.html">LGPL</a>
+  </p>
+  
+  <p>You can find out more about signing the SCA at the <a href="http://www.sun.com/software/opensource/contributor_agreement.jsp
+">SCA project</a> or download <a href="http://www.sun.com/software/opensource/sca.pdf">the SCA itself </a>.</p>
+
+  
+  <h3>Where did this renderer come from?</h3>
+  
+  <p>
+  In 2003, researchers at Sun Labs developed the PDF Renderer as part of an audio collaboration tool, Sun(TM) Labs Meeting Suite, which is used extensively at Sun for distributed meetings. Meeting Suite was designed to allow people to give presentations created with OpenOffice  Now, Sun is excited to release this code under the LGPL as part of SwingLabs. This release will benefit the Java ecosystem and also let the open source community improve the implementation to support the latest PDF features.
+  </p>
+  
+
+  
+  
+  <p>
+  </p>
+  
+
+</body>
+</html>
+

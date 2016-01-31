@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="https://pdf-renderer.dev.java.net/demos/latest/" href="launch.jnlp">
+    <information>
+        <title>PDFRenderer</title>
+        <vendor>joshy</vendor>
+        <description>PDFRenderer</description>
+        <description kind="short">PDFRenderer</description>
+        <homepage href=""/>
+
+        <offline-allowed/>
+    </information>
+
+    <resources>
+        <j2se version="1.5+" java-vm-args="-Xmx512M"/>
+        <jar href="PDFRenderer.jar" main="true" download="eager"/>
+
+    </resources>
+    <application-desc main-class="com.sun.pdfview.PDFViewer">
+        <argument>-noThumb</argument>
+    </application-desc>
+</jnlp>

@@ -1,0 +1,28 @@
+/* 
+    Document   : common
+    Created on : Jan 4, 2008, 1:04:36 PM
+    Author     : joshy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+    .screenshot { float: left; }
+    .screenshot img {
+        border: 1px solid black;
+        background-color: white;
+        padding: 10px;
+        margin: 5px;
+        }
+    .screenshot_container { clear: both; }
+    .code-highlight { color: red; }
+    .code-sample { 
+        border: 1px dotted #cccc88; 
+        background: #ffffcc;
+        padding: 0.5em;
+    }
+
