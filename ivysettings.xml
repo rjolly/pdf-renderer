@@ -1,0 +1,15 @@
+<ivysettings>
+    <include url="${ivy.default.settings.dir}/ivysettings.xml"/>
+    <credentials host="oss.sonatype.org" realm="Sonatype Nexus Repository Manager" username="${username}" passwd="${password}"/>
+    <resolvers>
+        <filesystem name="local-signed" signer="mypgp">
+            <ivy pattern="${ivy.local.default.root}/${ivy.local.default.ivy.pattern}" />
+            <artifact pattern="${ivy.local.default.root}/${ivy.local.default.artifact.pattern}" />
+        </filesystem>
+        <ibiblio name="snapshots" m2compatible="true" root="${snapshots}" signer="mypgp"/>
+        <ibiblio name="releases" m2compatible="true" root="${releases}" signer="mypgp"/>
+    </resolvers>
+    <signers>
+        <pgp name="mypgp" password="${sigpass}" />
+    </signers>
+</ivysettings>

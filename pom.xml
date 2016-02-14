@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.rjolly</groupId>
+  <artifactId>pdf-renderer</artifactId>
+  <packaging>jar</packaging>
+  <version>140</version>
+  <url>http://www.swinglabs.org/</url>
+  <description>PDF renderer implementation supporting the subset of PDF 1.4 specification.</description>
+  <licenses>
+    <license>
+      <name>Lesser General Public License (LGPL)</name>
+      <url>http://www.gnu.org/copyleft/lesser.html</url>
+    </license>
+  </licenses>
+  <name>pdf-renderer</name>
+  <organization>
+    <name>com.github.rjolly</name>
+  </organization>
+  <scm>
+    <url>git@github.com:rjolly/pdf-renderer.git</url>
+    <connection>scm:git:git@github.com:rjolly/pdf-renderer.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>rjolly</id>
+      <name>Raphael Jolly</name>
+      <url>http://github.com/rjolly</url>
+    </developer>
+  </developers>
+</project>
